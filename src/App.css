@@ -88,6 +88,7 @@ header .themeSelector .activeTheme{
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
+  position: relative;
 }
 
 .addTask form button:hover{
@@ -136,7 +137,7 @@ header .themeSelector .activeTheme{
   cursor: pointer;
   border: 0px;
   font-size: 16px;
-  margin-left:60vw;
+  margin-left:2vw;
 }
 
 .showTask .clearAll:hover{
@@ -199,4 +200,13 @@ header .themeSelector .activeTheme{
   .showTask li{
     width: 100%;
   }
+}
+@media (max-width:500px) {
+  .addTask form button{
+    /* right: 18vw; */
+  }
+  .addTask form input{
+    width: 100%;
+  }
+  
 }
